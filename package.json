@@ -24,7 +24,7 @@
     "chromedriver": "80.0.2",
     "cucumber-html-reporter": "5.2.0",
     "eslint": "^6.8.0",
-    "selenium-standalone": "6.17.0",
+    "selenium-standalone": "^6.23.0",
     "wdio-cucumber-parallel-execution": "^3.6.14",
     "wdio-cucumberjs-json-reporter": "1.2.0",
     "wdio-docker-service": "^3.1.2",

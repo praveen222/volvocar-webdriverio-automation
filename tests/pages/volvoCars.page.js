@@ -41,8 +41,8 @@ class volvoCars extends NativePage {
 
   visualRegression() {
     
-    browser.saveScreen('carspage1.png', {});
-    expect(browser.saveScreen('carspage1.png', { /* some options */ })).toEqual(0);
+    // browser.saveScreen('carspage1.png', {});
+    // expect(browser.saveScreen('carspage1.png', { /* some options */ })).toEqual(0);
     const electricVechicle = $(this.webdriverIOHomePageElement.electric)
     browser.saveElement(electricVechicle, 'electricVechicle.png', { /* some options */ });
     expect(browser.checkElement(electricVechicle, 'electricVechicle.png', { /* some options */ })).toEqual(0);
