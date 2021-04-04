@@ -11,6 +11,7 @@
 - Integrated with [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter) for intuitive & detailed HTML reporting
 - Embeds screenshots on failure
 - Integrated with [wdio-cucumber-parallel-execution](https://www.npmjs.com/package/wdio-cucumber-parallel-execution) module for parallel execution
+-  Integrated with docker [https://www.npmjs.com/package/wdio-docker-service]
 
 
 # Installation
