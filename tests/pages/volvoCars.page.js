@@ -1,11 +1,11 @@
 const NativePage = require('./native.page.js');
-const webdriverIOHomePageData = require('../files/testData/sampleHome.data.js');
+const webdriverIOHomePageData = require('../files/testData/volvoCars.data.js');
 
 
-class sampleHomePage extends NativePage {
+class volvoCars extends NativePage {
 
   get webdriverIOHomePageElement() {
-    return this.getPage('sampleHome.locators');
+    return this.getPage('volvoCars.locators');
   }
 
   openwebdriverIOHomepage() {
@@ -41,8 +41,8 @@ class sampleHomePage extends NativePage {
 
   visualRegression() {
     
-    // browser.saveScreen('carspage1.png', {});
-    // expect(browser.saveScreen('carspage1.png', { /* some options */ })).toEqual(0);
+    browser.saveScreen('carspage1.png', {});
+    expect(browser.saveScreen('carspage1.png', { /* some options */ })).toEqual(0);
     const electricVechicle = $(this.webdriverIOHomePageElement.electric)
     browser.saveElement(electricVechicle, 'electricVechicle.png', { /* some options */ });
     expect(browser.checkElement(electricVechicle, 'electricVechicle.png', { /* some options */ })).toEqual(0);
@@ -52,4 +52,4 @@ class sampleHomePage extends NativePage {
 
 }
 
-module.exports = sampleHomePage;
+module.exports = volvoCars;

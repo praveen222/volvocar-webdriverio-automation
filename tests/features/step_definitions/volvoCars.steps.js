@@ -1,6 +1,6 @@
 const { Given, When, Then } = require('cucumber');
 
-const homePage = require('../../pages/sampleHome.page.js');
+const homePage = require('../../pages/volvoCars.page.js');
 const home = new homePage();
 
 
